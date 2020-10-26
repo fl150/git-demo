@@ -11,7 +11,7 @@ public class App {
 
 	@GetMapping("/")
 	public String hello() {
-		return "hello git";
+		return "hello git - v0.1";
 	}
 
 	public static void main(String[] args) {
