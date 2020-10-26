@@ -11,7 +11,7 @@ public class App {
 
 	@GetMapping("/")
 	public String hello() {
-		return "hello git - v0.1 - branch master - merged - branch vampire";
+		return "hello git - v0.1 - branch master - merged - v0.10 - rebased";
 	}
 
 	public static void main(String[] args) {
